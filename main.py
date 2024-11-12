@@ -167,9 +167,9 @@ availableFunctions = {
 if 'messages' not in st.session_state:
     st.session_state['messages'] = []
 
-st.title('Stock-GPT')
+st.title('STOCK-GPT')
 
-user_input = st.text_input('Your input:')
+user_input = st.text_input('How can i help you today?')
 
 if user_input:
     try:
